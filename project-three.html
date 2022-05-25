@@ -1,0 +1,33 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ File: project-three.html                                                  ~
+  ~ Author: Dylan Bryan                                                       ~
+  ~ Date: 6/7/21, 8:54 AM                                                     ~
+  ~ Project: project-three                                                    ~
+  ~ Purpose: Main web page container for animation                            ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Three</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="three.min.js"></script>
+    <script src="project-three.js"></script>
+</head>
+<body onload="init()">
+    <div id="animate-container">
+        <h1>Project Three</h1>
+        <div id="direction-container">
+            <p>Use arrow keys to adjust view</p>
+            <label for="animate">Animate</label>
+            <input type="checkbox" id="animate"/>
+        </div>
+    </div>
+    <div id="canvas-holder">
+        <canvas id="glcanvas"></canvas>
+    </div>
+</body>
+</html>
